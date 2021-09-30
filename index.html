@@ -24,13 +24,70 @@
     <body>
         <header class="jumbotron jumbotron-fluid text-center">
             <h1 class="display-3" >Work Day Scheduler</h1>
-            <h4 class="display-4" >Current Time & Date</h4>
-            <h4 id="time" class="display-4" style="text-align:center;"></h4>
+            <h3 class="lead">A simple calendar app for scheduling your work day</h3>
+            <h3 id="currentDay" class="lead"></h3>
         </header>
 
+        <div class="container timeblock">
+            <div class="row">
+              <div class="col-2 hour text-right">9 AM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='9'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+            <div class="row">
+              <div class="col-2 hour text-right">10 AM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='10'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+            <div class="row">
+              <div class="col-2 hour text-right">11 AM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='11'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+            <div class="row">
+              <div class="col-2 hour text-right">12 PM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='12'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+            <div class="row">
+              <div class="col-2 hour text-right">1 PM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='13'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+            <div class="row">
+              <div class="col-2 hour text-right">2 PM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='14'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+            <div class="row">
+              <div class="col-2 hour text-right">3 PM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='15'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+            <div class="row">
+              <div class="col-2 hour text-right">4 PM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='16'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+            <div class="row">
+              <div class="col-2 hour text-right">5 PM</div>
+              <input class="col-8 col-sm-9" id ="eventInput"></input>
+              <button type="button" class="col-2 col-sm-1 btn saveBtn" id='17'><i class="bi bi-save-fill"></i></button>
+            </div>
+      
+          </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="./assets/script.js"></script>
 </body>
 </html>

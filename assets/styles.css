@@ -11,6 +11,9 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+    background-color:silver;
+    height: 100%;
+    width: 100%;
   }
   
   .jumbotron {
