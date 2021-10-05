@@ -9,4 +9,4 @@ Credit
 Classmates and tutoring helped with functions
 
 Screenshot
-![Screenshot](./assets//Users/samkilpatrick/Desktop/UT-Bootcamp/Homework/SK_Homework_5/assets/screencapture-127-0-0-1-5502-index-html-2021-10-05-18_53_32.png)
+![Screenshot](./assets/screencapture-127-0-0-1-5502-index-html-2021-10-05-18_53_32.png)
